@@ -1,0 +1,11 @@
+<h3>New Pokemon</h3>
+
+<%= form_for(@pokemon) do |f| %>
+    <label>Pokemon Name:</label><br>
+    <%= f.text_field :name %>
+
+    <label>Pokemon Image:</label>
+    <%= f.text_field :image %>    
+
+    <%= f.submit %>
+<% end %>
